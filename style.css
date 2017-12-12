@@ -24,7 +24,7 @@
 
 }
 .bar-1-black, .bar-2-black {
-    background-color: #17161c;
+    background-color: #000;
     opacity: .8;
 }
 
@@ -79,5 +79,11 @@
     transform: rotate(29deg);
 }
 .circle {
-    background-color: #ebe4d2; 
+    background-color: #ebe4d2;
+    width: 60mm;
+    height: 60mm;
+    border-radius: 50%;
+    top: 7.2mm;
+    left: 23.2mm;
+    opacity: .8;
 }
