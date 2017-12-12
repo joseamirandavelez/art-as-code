@@ -1,0 +1,52 @@
+.canvas {
+    background-color: #c3c0b9; 
+    height: 100vh;
+    position: relative;
+}
+.circle, 
+.bar-1-black, 
+.bar-2-black,
+.bar-1-red,
+.bar-2-red {
+    position: absolute;
+}
+.bar-1-black, 
+.bar-2-black,
+.bar-1-red,
+.bar-2-red {
+    height: 100px;
+    width: 200%;
+    top: 50%;
+    right: -50%;
+
+}
+.bar-1-black, .bar-2-black {
+    background-color: #17161c;
+
+
+}
+.bar-2-red, .bar-1-red {
+    background-color: #c13720; 
+}
+.bar-1-black {
+    -ms-transform: rotate(-69deg); /* IE 9 */
+    -webkit-transform: rotate(-69deg); /* Safari */
+    transform: rotate(-69deg);
+    top: 50%;
+    right: -50%;
+}
+.bar-1-red {
+    -ms-transform: rotate(-50deg); /* IE 9 */
+    -webkit-transform: rotate(-50deg); /* Safari */
+    transform: rotate(-50deg);
+    opacity: .5;
+    z-index: 10;
+}
+.bar-2-black {
+    -ms-transform: rotate(50deg); /* IE 9 */
+    -webkit-transform: rotate(50deg); /* Safari */
+    transform: rotate(50deg);
+}
+.circle {
+    background-color: #ebe4d2; 
+}
