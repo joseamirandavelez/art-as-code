@@ -7,6 +7,10 @@
     margin: auto;
     position: relative;
     overflow: hidden;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    border: 3px solid white;
 }
 .circle, 
 .bar-1-black, 
@@ -87,4 +91,7 @@
     top: 7.2mm;
     left: 23.2mm;
     opacity: .8;
+}
+div {
+    transition: all 0.5s ease;
 }
