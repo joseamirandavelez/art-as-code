@@ -23,7 +23,7 @@
 .bar-2-black,
 .bar-1-red,
 .bar-2-red {
-    height: 100px;
+    
     width: 200%;
 
 }
@@ -44,13 +44,13 @@
 }
 
 .bar-1-black, .bar-1-red {
-    height: 26.66666666666667%;
-    /* height: 29.8mm; */
+    /* height: 26.66666666666667%; */
+    height: 29.8mm;
 }
 
 .bar-2-black, .bar-2-red {
-    height: 28.7037037037037%;
-    /* height: 31mm; */
+    /* height: 28.7037037037037%; */
+    height: 31mm;
 }
 
 /* semi-vertical black line */
