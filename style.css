@@ -40,13 +40,13 @@
 }
 
 .bar-1-black, .bar-1-red {
-    /* height: 25.92592592592593%; */
-    height: 29.8mm;
+    height: 26.66666666666667%;
+    /* height: 29.8mm; */
 }
 
 .bar-2-black, .bar-2-red {
-    /* height: 28.7037037037037%; */
-    height: 31mm;
+    height: 28.7037037037037%;
+    /* height: 31mm; */
 }
 
 /* semi-vertical black line */
@@ -80,8 +80,9 @@
 }
 .circle {
     background-color: #ebe4d2;
-    width: 60mm;
-    height: 60mm;
+    width: 46.51162790697674%;
+    height: 55.55555555555556%;
+    /* height: 60mm; */
     border-radius: 50%;
     top: 7.2mm;
     left: 23.2mm;
