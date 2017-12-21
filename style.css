@@ -2,6 +2,7 @@
 /* 129mm wide by 108mm height*/
 .canvas {
     background-color: #c3c0b9; 
+    top: 25vh;
     height: 108mm;
     width: 129mm;
     margin: auto;
