@@ -80,14 +80,16 @@
     transform: rotate(29deg);
 }
 .circle {
-    background-color: #ebe4d2;
+    background-color: #ceb36d;
     width: 46.51162790697674%;
     height: 55.55555555555556%;
     /* height: 60mm; */
     border-radius: 50%;
     top: 7.2mm;
     left: 23.2mm;
-    opacity: .8;
+    opacity: .6;
+    z-index: 999;
+    mix-blend-mode: screen;
 }
 div {
     transition: all 0.5s ease;
