@@ -1,17 +1,13 @@
 
+
+
 /* 129mm wide by 108mm height*/
 .canvas {
     background-color: #c3c0b9; 
-    top: 25vh;
     height: 108mm;
     width: 129mm;
-    margin: auto;
     position: relative;
     overflow: hidden;
-    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
-    border: 3px solid white;
 }
 .circle, 
 .bar-1-black, 
